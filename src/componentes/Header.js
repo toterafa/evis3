@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../css/Header.css'
+import Header from '../css/style.css'
 import {BsJustify} from 'react-icons/bs'
 import {BsPeopleCircle} from 'react-icons/bs'
 import Logo from '../imagens/orbit.png'
@@ -26,7 +26,7 @@ export default ()=>{
             </nav>
 
             <br/><br/>
-            <h1>CONTEÚDO</h1>
+            {/* <h1>CONTEÚDO</h1>
 
             <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
             <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
@@ -45,7 +45,7 @@ export default ()=>{
             <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
             <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
             <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p><br/>
+            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p><br/> */}
             
                
 
