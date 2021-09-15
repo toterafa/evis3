@@ -1,5 +1,5 @@
 import React from 'react'
-import Cards from '../css/style.css'
+import Cards from '../css/cards1-2.css'
 
 export default () => {
     return(

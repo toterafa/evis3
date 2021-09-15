@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    background-color: #030B0F;
+    color: #fff;
+    display: flex;
+    padding: 30px 40px;
+}
+
+.opcoesMenu, .contate{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.tituloFooter {
+    font-size: 27px;
+    padding-bottom: 12px;
+}
+
+.subFooter {
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+.linkFooter {
+    font-size: 15px;
+    color: #fff;
+    padding-bottom: 7px;
+}

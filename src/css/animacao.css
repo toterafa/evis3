@@ -1,0 +1,14 @@
+.divAnimacao{
+    width: 100%;
+    background-color: #fff;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+h1 {
+    font-size: 27px;
+    font-weight: normal;
+}

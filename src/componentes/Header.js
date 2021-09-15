@@ -1,56 +1,25 @@
 import React from 'react'
-import Header from '../css/style.css'
-import {BsJustify} from 'react-icons/bs'
-import {BsPeopleCircle} from 'react-icons/bs'
-import Logo from '../imagens/orbit.png'
+import Header2 from '../css/header.css'
+import Perfil from '../imagens/perfil.png'
 
-export default ()=>{
-
+export default () => {
     return(
         <>
-    
+        <div className="menu">
+            <div className="divLogo">
+                <h1 className="logo">EVI</h1>
+            </div>
             <nav>
-                <input type="checkbox" id="check"/>
-                <label for="check" className="checkbtn">
-                <i> <BsJustify /> </i>
-                </label>
-                <img  className="logo" src={Logo}/>
                 <ul>
-                    <li><a href="#">Cadastre-se</a></li>
+                    <li><a className="btnTeste" href="#">Realizar teste</a></li>
                     <li><a href="#">Instruções</a></li>
-                    <li><a href="#">O que é Evi</a></li>
-                    <li><a href="#" className="icon-usuario"><BsPeopleCircle /></a></li>
-                    
+                    <li><a href="#">O que é EVI</a></li>
                 </ul>
-
+                <div>
+                    <a href="#"><img className="perfil" src={Perfil}></img></a>
+                </div>
             </nav>
-
-            <br/><br/>
-            {/* <h1>CONTEÚDO</h1>
-
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p>
-            <p>ajhfsohasfohjsafohasofhosahfoisahfoisahfoisahfoi</p><br/> */}
-            
-               
-
+        </div>
         </>
-    );
-
-
+    )
 }
