@@ -1,0 +1,108 @@
+.titulo{
+    font-size: 27px;
+}
+
+.divCards {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.divCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    /* flex-direction: column; */
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* Cards 2 */
+.divCard2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.card2 {
+    flex-direction: column;
+    width: 380px;
+    height: 190px;
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    /* flex-direction: column; */
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.tituloCard{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 23px;
+    /* padding-bottom: 5px; */
+}
+
+.textoCard{
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.divBtn{
+    margin-left: 230px;
+}
+
+.btnCard{
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-align: center;
+    background-color: #81D2AB;
+    float: right;
+}
+
+.btnCard2{
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-align: center;
+    background-color: #F09A84;
+    float: right;
+}
+
+.rosa {
+    color: #F09A84;
+}
+
+.roxo {
+    color: #322b8c;
+}
+
+.verde {
+    color: #81D2AB;
+}

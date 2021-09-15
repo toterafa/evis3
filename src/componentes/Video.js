@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from '../css/style.css'
+import Video from '../css/video.css'
 import imgVideo from '../imagens/video.jpg'
 
 export default () => {
