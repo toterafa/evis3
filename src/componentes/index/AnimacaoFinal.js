@@ -1,5 +1,5 @@
 import React from 'react'
-import AnimacaoFinal from '../css/animacao.css'
+import AnimacaoFinal from '../../css/index/animacao.css'
 
 export default () => {
     return(

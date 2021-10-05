@@ -1,6 +1,6 @@
 import React from 'react'
-import Cards from '../css/cards1-2.css'
-import css from '../css/style.css'
+import Cards from '../../css/index/cards1-2.css'
+import css from '../../css/style.css'
 
 export default () => {
     return(

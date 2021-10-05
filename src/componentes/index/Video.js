@@ -1,6 +1,6 @@
 import React from 'react'
-import Video from '../css/video.css'
-import imgVideo from '../imagens/video.jpg'
+import Video from '../../css/index/video.css'
+import imgVideo from '../../imagens/video.jpg'
 
 export default () => {
     return(
